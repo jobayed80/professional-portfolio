@@ -4,9 +4,16 @@ import TestimonialsSlider from './TestimonialsSlider'
 
 const Testimonials = () => {
   return (
-    <section id='testimonials' className='section bg-secondary '>
+    <section id='testimonials' className='section bg-secondary relative'>
+
+       
+
+
     <div className="container mx-auto" data-aos="fade-up" data-aos-duration="2000">
+    <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
         <div className="flex flex-col items-center text-center">
+        
+
             <h2 style={{color:"var(--red"}} className='section-title   before:content-testimonials relative before:absolute before:opacity-40 before:-top-[2rem] before:-left-3/4 before:hidden before:lg:block'>
                 What other people say
             </h2>

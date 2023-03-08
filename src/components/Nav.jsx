@@ -12,7 +12,7 @@ const Nav = () => {
         <ul className='flex space-x-8 capitalize text-[16px]'>
             {navigation.map((item , index)=>{
                 return(
-                    <li style={{color:"var(--red"}} className='text-white hover:text-accent cursor-pointer' key={index}>
+                    <li  className='text-white hover:text-pink-600 cursor-pointer text-lg' key={index}>
                         <Link to={item.href} activeClass='active' spy={true} smooth={true}
                         duration={500} className='transition-all duration-500'>{item.name}</Link>
                     </li>

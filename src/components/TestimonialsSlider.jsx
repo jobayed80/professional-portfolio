@@ -18,7 +18,7 @@ const TestimonialsSlider = () => {
             clickable:true,
         }}
         autoplay={{
-            delay:30000,
+            delay:2500,
             disableOnInteraction: false,
         }}
         modules={[Autoplay,Pagination]}
@@ -30,8 +30,8 @@ const TestimonialsSlider = () => {
                     return (
                         <SwiperSlide key={index}>
                             <div className="flex flex-col lg:flex-row gap-12 lg:gap-32" data-aos="fade-right" data-aos-duration="2000">
-                                <div className="w-48 h-48 lg:w-[528px] lg:h-[428px]">
-                                    <img className='rounded-xl' src={authorImg} alt="" />
+                                <div className="borderCssw-48 h-48 lg:w-[528px] lg:h-[428px]">
+                                    <img className='rounded-xl borderCss' src={authorImg} alt="" />
                                 </div>
                                 <div className="flex flex-col max-w-3xl">
                                 <h5  className='font-body text-2xl mb-8 italic font-normal'>{authorText}</h5>

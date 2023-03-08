@@ -38,7 +38,23 @@ const Contact = () => {
 
 
     return (
-        <section id='contact' className='section bg-primary'>
+        <section id='contact' className='section bg-primary relative'>
+
+            
+<div
+            className="blur"
+            style={{
+              background: "#C1F5FF",
+              top: "15rem",
+              width: "212rem",
+              height: "12rem",
+              right: "110rem",
+            }}
+          >
+
+          </div>
+
+          
             <div className="container mx-auto">
 
                 <div className="container mx-auto" data-aos="fade-up" data-aos-duration="2000">
@@ -46,7 +62,7 @@ const Contact = () => {
                         <h2 style={{color:"var(--red"}} className='section-title  before:content-contact relative before:absolute before:opacity-40 before:-top-[2rem] before:-left-3/4 before:hidden before:lg:block'>
                             Contact me
                         </h2>
-                        <p className='subtitle'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab porro exercitationem totam quisquam nulla dignissimos asperiores labore, inventore, perferendis at placeat eaque voluptate, neque distinctio suscipit accusamus repellat aut!  </p>
+                        <p className='subtitle text-justify'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab porro exercitationem totam quisquam nulla dignissimos asperiores labore, inventore, perferendis at placeat eaque voluptate, neque distinctio suscipit accusamus repellat aut!  </p>
                     </div>
 
 

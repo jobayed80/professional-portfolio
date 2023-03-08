@@ -42,14 +42,14 @@ const NavMobile = () => {
     }
   }
   return (
-    <nav className='relative'>
+    <nav className='relative overflow-x-hidden'>
       <div onClick={() => setIsOpen(true)} className="cursor-pointer text-white">
         <HiOutlineMenuAlt3 className="w-8 h-8"></HiOutlineMenuAlt3>
       </div>
 
       {/* circle */}
       <motion.div  variants={circleVariants} initial='hidden' animate={isOpen ? 'visible' : 'hidden'}
-          className='w-4 h-4 bg-red-700 rounded-ful fixed top-0 right-0'>
+          className='w-4 h-4 bg-pink-600 rounded-ful fixed top-0 right-0'>
       </motion.div>
 
       {/* menu */}

@@ -4,18 +4,59 @@
 
 
 
-.jobayed{
-  
-  border: 2px solid var(--r);
+.borderCss{
+  box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 8px 10px -6px var(--red);
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+}
+.borderCss:hover{
+  border: 1px solid #C21E56;
+}
+/* blur */
+.blur {
+  position: absolute;
+  width: 12rem;
+  height: 9rem;
+  border-radius: 50%;
+  background: #edd0ff;
+  filter: blur(212px);
+  z-index: 19;
+  top: -19px;
+  left: 56%;
+  filter: blur(112px);
+  -webkit-filter: blur(212px);
 }
 
-*{
+.banner-img{
+  position: relative;
+}
+.banner-img>*{
+  position: absolute;
+  
+}
+.i-right > :nth-child(1) {
+ 
+}
+.i-right > :nth-child(2) {
+ 
+}
+.i-right > :nth-child(3) {
+  
+}
+
+
+/* *{
   outline: 0;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
-}
+  
+} */
 
 
 :root
@@ -23,7 +64,7 @@
   --yellow: #F5C32C;
     --orange : #FCA61F;
     --black : #242D49;
-    --red : rgb(185 28 28);
+    --red : #C21E56;
     --gray : #788097;
     --blueCard : #DDF8FE;
     --purple: rgb(238 210 255);
@@ -54,7 +95,7 @@
     @apply text-3xl lg:text-4xl font-medium lg:font-extrabold mb-5;
   }
   .subtitle {
-    @apply text-base text-paragraph mb-16 lg:mb-24 max-w-[520px];
+    @apply text-justify text-base text-paragraph mb-16 lg:mb-24 max-w-[520px];
   }
   .btn {
     @apply py-4 px-7 font-medium text-white flex items-center justify-center rounded-sm hover:bg-accent-hover transition-all;
@@ -66,12 +107,12 @@
     @apply h-[48px];
   }
   .input {
-    @apply bg-secondary text-paragraph h-[60px] outline-none pl-6 w-full font-body text-[15px] rounded-sm focus:outline focus:outline-1 focus:outline-red-700;
+    @apply bg-secondary text-paragraph h-[60px] outline-none pl-6 w-full font-body text-[15px] rounded-sm focus:outline focus:outline-1 focus:outline-pink-600;
   }
   .textarea {
-    @apply bg-secondary resize-none w-full outline-none p-6 rounded-sm h-[200px] focus:outline focus:outline-1 focus:outline-accent;
+    @apply bg-secondary resize-none w-full outline-none p-6 rounded-sm h-[200px] focus:outline focus:outline-1 focus:outline-pink-600;
   }
   .active {
-    @apply text-accent;
+    @apply text-pink-600;
   }
 }

@@ -13,7 +13,7 @@ const Footer = () => {
                         {social.map((item, index) => {
                             const { href, icon } = item
                             return (
-                                <a  style={{color:"var(--red"}}className='text-accent text-base' href={href} key={index}>{icon}</a>
+                                <a  className='text-slate-400 text-base hover:text-pink-600 transition-all duration-500' href={href} key={index}>{icon}</a>
                             )
                         })}
                     </div>

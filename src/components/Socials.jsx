@@ -11,7 +11,7 @@ const Socials = () => {
               social.map((item , index)=>{
                 return <li className='flex justify-center items-center text-slate-400 '
                 key={index}>
-                  <a  className='text-base  hover:text-red-700 transition-all duration-500' href={item.href} target="_blank">
+                  <a  className='text-base  hover:text-pink-600 transition-all duration-500' href={item.href} target="_blank">
                     {item.icon}
                   </a>
                 </li>

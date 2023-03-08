@@ -14,6 +14,7 @@ import BackToTopBtn from './components/BackToTopBtn';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Banner from './components/banner/Banner';
 
 
 // import components
@@ -27,12 +28,13 @@ const App = () => {
   
   
   return(
-    <div>
+    <div className='overflow-x-hidden'>
         <Header></Header>
+        {/* <Banner></Banner> */}
         <Hero></Hero>
         <Bands></Bands>
         <About></About>
-         
+         <Skills></Skills>
         <Portfolio></Portfolio>
         <Services></Services>
         <Testimonials></Testimonials>

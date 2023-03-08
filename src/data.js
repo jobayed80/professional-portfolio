@@ -10,6 +10,8 @@ import {
   FiTag,
   FiMail,
   FiMapPin,
+  FiFacebook,
+  FiLinkedin
 } from 'react-icons/fi';
 
 // companies icons
@@ -28,9 +30,9 @@ import Project5 from './assets/img/projects/cal.PNG';
 import Project6 from './assets/img/projects/eid.PNG';
 
 // skills images
-import SkillImg1 from './assets/img/skills/html5.png';
-import SkillImg2 from './assets/img/skills/css3.png';
-import SkillImg3 from './assets/img/skills/js.png';
+import SkillImg1 from './assets/img/skills/c.png';
+import SkillImg2 from './assets/img/skills/java.png';
+import SkillImg3 from './assets/img/skills/js1.png';
 import SkillImg4 from './assets/img/skills/reactjs.png';
 import SkillImg5 from './assets/img/skills/nextjs.png';
 import SkillImg6 from './assets/img/skills/nodejs.png';
@@ -40,7 +42,7 @@ import SkillImg8 from './assets/img/skills/figma.png';
 // testimonial images
 import TestiImage1 from './assets/img/testimonials/ds.PNG';
 import TestiImage2 from './assets/img/testimonials/projec-show.jfif';
-import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
+import TestiImage3 from './assets/img/testimonials/testing.PNG';
 
 // Components
 
@@ -75,21 +77,23 @@ export const navigation = [
 
 // social
 export const social = [
+  
   {
-    icon: <FiYoutube />,
-    href: 'https://www.youtube.com/watch?v=jBM-0lZpR5Q&list=RDGMEMCMFH2exzjBeE_zAHHJOdxg&index=8',
-  },
-  {
-    icon: <FiInstagram />,
-    href: '',
+    icon: <FiLinkedin />,
+    href: 'https://www.linkedin.com/in/md-jobayed-hossain-rabbi-aa4072200/',
   },
   {
     icon: <FiGithub />,
-    href: '',
+    href: 'https://github.com/jobayed80',
+  },
+
+  {
+    icon: <FiFacebook />,
+    href: 'https://www.facebook.com/Jobayed.102/',
   },
   {
-    icon: <FiDribbble />,
-    href: '',
+    icon: <FiInstagram />,
+    href: 'https://www.instagram.com/jobayed_hossain_rabbi/',
   },
 ];
 
@@ -193,12 +197,7 @@ export const skills = [
   {
     image: SkillImg6,
   },
-  {
-    image: SkillImg7,
-  },
-  {
-    image: SkillImg8,
-  },
+  
 ];
 
 // services
@@ -208,24 +207,28 @@ export const services = [
     name: 'Web Design',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+    sticker:'&#128512',
   },
   {
     icon: <FiSettings />,
     name: 'Web Development',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      sticker:'🥰',
   },
   {
     icon: <FiPenTool />,
     name: 'Branding',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      sticker:'🥰',
   },
   {
     icon: <FiTag />,
     name: 'SEO',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      sticker:'🥰',
   },
 ];
 
@@ -265,7 +268,7 @@ export const contact = [
   {
     icon: <FiMapPin />,
     title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
+    subtitle: 'Md. Jobayed Hossain Rabbi, Dhaka,Bangladesh',
     description: 'Serving clients worldwide',
   },
 ];
